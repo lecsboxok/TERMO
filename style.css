@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #5C4E50;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div-coluna {
+    background-color: rgba(49, 49, 49, 0.30);
+    font: 700 30px 'Verdana';
+    color: white;
+    width: 60px;
+    height: 60px;
+    margin: 2px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+}
+
+.div-linha {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.certo {
+    background-color: #56A249;
+}
+
+.errado {
+    background-color: #Dc6964;
+}
+
+.deslocado {
+    background-color: #DBC663;
+}
+
+.teclado-container button {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    margin: 5px;
+    font: 700 20px 'Verdana';
+    color: white;
+    background-color: rgba(49, 49, 49, 0.50);
+}
+
+.teclado-linha {
+    /* margin: 5px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#apagar-e-enter button {
+    width: 100px;
+    height: 60px;
+    margin: 0 220px;
+}
+
+.titulo {
+    margin: 20px;
+}
+
+h1 {
+    font: 700 40px 'Verdana';
+    color: white;
+}
